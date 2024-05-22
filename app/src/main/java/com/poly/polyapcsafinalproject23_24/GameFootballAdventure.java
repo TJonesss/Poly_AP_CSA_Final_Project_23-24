@@ -1,4 +1,8 @@
 package com.poly.polyapcsafinalproject23_24;
+protected void run() {
+    setContentView(R.layout.activity_game_4_button);
+}
+
 
 import java.util.Scanner;
 
@@ -24,25 +28,25 @@ public class Adventure{
         //player = new Player(...)
 
         //display project title and description
-        Util.clearConsole();
-        System.out.println("You are now on the field");
+
+        System.out.println("You are the QB");
         System.out.println("make the right plays to win");
 
-        Util.pauseConsole();
+
         start();
     }
 
     private void start()
     {
-        Util.clearConsole();
+
         System.out.println("Throw The ball!");
     }
 
 
     private void defeat()
     {
-        Util.clearConsole();
-        System.out.println("Throw The ball!");
+
+        System.out.println("The ball got picked off");
     }
         //run method when defeated
 
